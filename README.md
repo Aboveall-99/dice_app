@@ -1,17 +1,24 @@
-# dice_app
+# Dicee
 
-A Stateless Dice App
+A simple two-dice roller built with Flutter. Tap either die to re-roll both.
+
+## Screenshots
+
+![screenshot 1](screenshots/screenshot-1.png)  
+![screenshot 2](screenshots/screenshot-2.png)  
+
+## Features
+
+- Two independent dice, each showing a random 1–6 face
+- Tap either die image to roll both
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a standard Flutter project.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Install [Flutter](https://docs.flutter.dev/get-started/install)
+2. Clone this repo and run:
+   ```
+   flutter pub get
+   flutter run
+   ```
